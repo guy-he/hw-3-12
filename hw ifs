@@ -1,0 +1,44 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("please enter temperature: ");
+        Scanner s = new Scanner(System.in);
+        float temp = s.nextFloat();
+        if (temp > 36.5) {
+            System.out.println("hot");
+        }
+if (temp < 36.5){
+    System.out.println("cold");
+}
+        System.out.println("please enter your age: ");
+Scanner x = new Scanner(System.in);
+int my_age = x.nextInt();
+
+if (my_age > 18){
+    System.out.println("grown up");
+}
+if (my_age < 13){
+    System.out.println("child");
+}
+        System.out.println("please enter a number for a");
+Scanner letta = new Scanner(System.in);
+double a = letta.nextDouble();
+        System.out.println("please enter a number for b");
+        Scanner lettb = new Scanner(System.in);
+        double b = lettb.nextDouble();
+
+        if (a>b){
+            System.out.println(" a is bigger than b");
+        }
+        System.out.println("a =" +a);
+         if (a<b){
+             System.out.println( "b is bigger");
+         }
+        System.out.println("b =" +b);
+    }
+
+}
